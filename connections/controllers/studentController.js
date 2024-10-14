@@ -4,7 +4,7 @@ const SECRET_KEY = "Prabir";
 // Get all students
 const getStudents = async (req,res)=>{
     try {
-        const data = await pool.promise().query("SELECT * FROM students");
+        const data = await pool.promise().query("SELECT id, name, email, password FROM students");
         if(!data){
             return res.status(404).send({
                 success: false,
@@ -40,7 +40,7 @@ const getStudentById = async(req,res)=>{
             })
         }
 
-        const data = await pool.promise().query("SELECT * FROM students WHERE id = ?",[studentId]);
+        const data = await pool.promise().query("SELECT id, name, email, password FROM students WHERE id = ?",[studentId]);
         if(!data){
             return res.status(404).send({
                 success: false,
@@ -177,7 +177,7 @@ const signIn = async (req, res) => {
             });
         }
 
-        const [data] = await pool.promise().query("SELECT * FROM students WHERE email = ? AND password = ?", [email, password]);
+        const [data] = await pool.promise().query("SELECT id, name, email, password FROM students WHERE email = ? AND password = ?", [email, password]);
         if (data.length === 0) {
             return res.status(404).send({
                 success: false,
