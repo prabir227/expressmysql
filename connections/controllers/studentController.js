@@ -1,6 +1,7 @@
 const { pool } = require("../db");
 const jwt = require("jsonwebtoken");
-const SECRET_KEY = env.process.SECRET_KEY;
+const SECRETKEY = process.env.SECRET_KEY;
+const { userCreationSchema, userValidationSchema } = require("../models/joiSchemas");
 // Get all students
 const getStudents = async (req,res)=>{
     try {
@@ -68,14 +69,8 @@ const getStudentById = async(req,res)=>{
 
 const createStudent = async(req,res)=>{
     try {
-        const {name, email,password} = req.body;
-        if(!name || !email){
-            return res.status(500).send({
-                success: false,
-                message: "Please provide name and email"
-            })
-        }
-        const data = await pool.promise().query("INSERT INTO students (name, email, password) VALUES (?,?,?)",[name,email,password]);
+        const user = await userCreationSchema.validateAsync(req.body);
+        const data = await pool.promise().query("INSERT INTO students (name, email, password) VALUES (?,?,?)",[user.name, user.email, user.password]);
         if(!data){
             return res.status(500).send({
                 success: false,
@@ -169,22 +164,15 @@ const deleteStudent = async(req,res)=>{
 
 const signIn = async (req, res) => {
     try {
-        const { email, password } = req.body;
-        if (!email || !password) {
-            return res.status(400).send({
-                success: false,
-                message: "Please provide email and password"
-            });
-        }
-
-        const [data] = await pool.promise().query("SELECT id, name, email, password FROM students WHERE email = ? AND password = ?", [email, password]);
+        const user = await userValidationSchema.validateAsync(req.body);
+        const [data] = await pool.promise().query("SELECT id, name, email, password FROM students WHERE email = ? AND password = ?", [user.email, user.password]);
         if (data.length === 0) {
             return res.status(404).send({
                 success: false,
                 message: "Invalid email or password"
             });
         }
-        const token = jwt.sign({ email: data[0].email, id : data[0].id}, SECRET_KEY);
+        const token = jwt.sign({ email: data[0].email, id : data[0].id}, SECRETKEY);   
         res.status(200).send({
             success: true,
             message: "Sign in successful",
