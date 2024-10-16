@@ -184,7 +184,7 @@ const signIn = async (req, res) => {
                 message: "Invalid email or password"
             });
         }
-        const token = jwt.sign({ email: email }, SECRET_KEY, { expiresIn: "1h" });
+        const token = jwt.sign({ email: data[0].email, id : data[0].id}, SECRET_KEY);
         res.status(200).send({
             success: true,
             message: "Sign in successful",

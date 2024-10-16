@@ -7,6 +7,7 @@ const port = 3000;
 app.use(express.json());
 //routes
 app.use('/students', require('./connections/routes/studentRoutes'));
+app.use('/notes', require('./connections/routes/noteRoutes'));
 app.get("/test", (req, res) => {
     res.send("hello world");
 });
