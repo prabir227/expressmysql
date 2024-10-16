@@ -1,6 +1,6 @@
 const { pool } = require("../db");
 const jwt = require("jsonwebtoken");
-const SECRET_KEY = "Prabir";
+const SECRET_KEY = env.process.SECRET_KEY;
 // Get all students
 const getStudents = async (req,res)=>{
     try {
