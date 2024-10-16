@@ -1,12 +1,10 @@
 const {pool} = require('../db');
+const noteCreationSchema = require('../models/joiSchemas');
 
 const createNotes = async (req, res) => {
     try{
-        const {title , description} = req.body;
-        if(!title || !description){
-            return res.status(400).json({message: "All fields are required"});
-        }
-        const data = await pool.promise().query("INSERT INTO notes (title, description, userid) VALUES (?,?,?)",[title, description, req.userId]);
+        const note = await noteCreationSchema.validateAsync(req.body);
+        const data = await pool.promise().query("INSERT INTO notes (title, description, userid) VALUES (?,?,?)",[note.title,note.description, req.userId]);
         if(!data){
             return res.status(500).json({message: "Failed to create note"});
         }
