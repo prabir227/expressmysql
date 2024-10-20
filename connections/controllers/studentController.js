@@ -2,15 +2,13 @@ const { pool } = require("../db");
 const jwt = require("jsonwebtoken");
 const SECRETKEY = process.env.SECRET_KEY;
 const { userCreationSchema, userValidationSchema } = require("../models/joiSchemas");
+const AppError = require("../models/centralErrorHandlers");
 // Get all students
-const getStudents = async (req,res)=>{
+const getStudents = async (req,res,next)=>{
     try {
         const data = await pool.promise().query("SELECT id, name, email, password FROM students");
         if(!data){
-            return res.status(404).send({
-                success: false,
-                message: "No data found"
-            })
+            return next(new AppError("No data found",404));
         }
         res.status(200).send({
             success: true,
@@ -20,62 +18,41 @@ const getStudents = async (req,res)=>{
         
     } catch (error) {
         console.log(error);
-        res.status(500).send(
-            {
-                success: false,
-                messgage: "Failed to fetch student data",
-                error: error
-            }
-        )
+        next(error);
     }
 
 }
 // Get student by id
-const getStudentById = async(req,res)=>{
+const getStudentById = async(req,res,next)=>{
     try {
         const studentId = req.params.id;
         if(!studentId){
-            return res.status(400).send({
-                success: false,
-                message: "Invalid student id"
-            })
+            return next(new AppError("Invalid student id",404));
         }
 
         const data = await pool.promise().query("SELECT id, name, email, password FROM students WHERE id = ?",[studentId]);
-        if(!data){
-            return res.status(404).send({
-                success: false,
-                message: "No data found"
-            })
+        if(data[0].length===0){
+            return next(new AppError("No data found",404));
         }
         res.status(200).send({
             success: true,
             message: "Data fetched successfully",
-            data: data[0]
+            data: data
         })
         
     } catch (error) {
         console.log(error);
-        res.status(500).send(
-            {
-                success: false,
-                messgage: "Failed to fetch student data",
-                error: error
-            }
-        )
+        next(error);
     }
 }
 // Create student
 
-const createStudent = async(req,res)=>{
+const createStudent = async(req,res,next)=>{
     try {
         const user = await userCreationSchema.validateAsync(req.body);
         const data = await pool.promise().query("INSERT INTO students (name, email, password) VALUES (?,?,?)",[user.name, user.email, user.password]);
         if(!data){
-            return res.status(500).send({
-                success: false,
-                message: "Failed to create student"
-            })
+            return next(new AppError("Failed to create student",500));
         }
         res.status(201).send({
             success: true,
@@ -86,15 +63,10 @@ const createStudent = async(req,res)=>{
     }
     catch(error){
         console.log(error);
-        res.status(500).send({
-            success: false,
-            message: "Failed to create student",
-            error: error
-        }
-    )
+        next(error);
     }
 };
-const updateStudent = async(req,res)=>{
+const updateStudent = async(req,res,next)=>{
     try {
         const studentId = req.params.id;
         const {name, email, password} = req.body;
@@ -106,10 +78,7 @@ const updateStudent = async(req,res)=>{
         }
         const data = await pool.promise().query("UPDATE students SET name = ?, email = ?, password = ? WHERE id = ?",[name,email,password,studentId]);
         if(!data){
-            return res.status(500).send({
-                success: false,
-                message: "Failed to update student"
-            })
+            return next(new AppError("Failed to update student",500));
         }
         res.status(200).send({
             success: true,
@@ -120,29 +89,18 @@ const updateStudent = async(req,res)=>{
     }
     catch(error){
         console.log(error);
-        res.status(500).send({
-            success: false,
-            message: "Failed to update student",
-            error: error
-        }
-    )
+        next(error);
     }
 }
 const deleteStudent = async(req,res)=>{
     try {
         const studentId = req.params.id;
         if(!studentId){
-            return res.status(500).send({
-                success: false,
-                message: "Invalid student id"
-            })
+            return next(new AppError("Invalid student id",404));
         }
         const data = await pool.promise().query("DELETE FROM students WHERE id = ?",[studentId]);
         if(!data){
-            return res.status(500).send({
-                success: false,
-                message: "Failed to delete student"
-            })
+            return next(new AppError("Failed to delete student",500));
         }
         res.status(200).send({
             success: true,
@@ -153,24 +111,16 @@ const deleteStudent = async(req,res)=>{
     }
     catch(error){
         console.log(error);
-        res.status(500).send({
-            success: false,
-            message: "Failed to delete student",
-            error: error
-        }
-    )
+        next(error);
     }
 };
 
-const signIn = async (req, res) => {
+const signIn = async (req, res,next) => {
     try {
         const user = await userValidationSchema.validateAsync(req.body);
         const [data] = await pool.promise().query("SELECT id, name, email, password FROM students WHERE email = ? AND password = ?", [user.email, user.password]);
         if (data.length === 0) {
-            return res.status(404).send({
-                success: false,
-                message: "Invalid email or password"
-            });
+            return next(new AppError("Invalid email or password", 401));
         }
         const token = jwt.sign({ email: data[0].email, id : data[0].id}, SECRETKEY);   
         res.status(200).send({
@@ -181,11 +131,7 @@ const signIn = async (req, res) => {
         });
     } catch (error) {
         console.log(error);
-        res.status(500).send({
-            success: false,
-            message: "Failed to sign in",
-            error: error.message
-        });
+        next(error);
     }
 };
 

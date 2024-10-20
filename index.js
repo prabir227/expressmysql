@@ -4,6 +4,7 @@ const pool = require('./connections/db');
 const app = express();
 const dotenv = require('dotenv');
 const helmet = require('helmet');
+const errorMiddleware = require('./connections/middlewares/errors');
 const port = process.env.PORT || 3000;
 
 //middlewares
@@ -19,6 +20,7 @@ app.get("/test", (req, res) => {
 });
 
 //listen
+app.use(errorMiddleware)
 pool.query('SELECT 1').then(() => {
     app.listen(port, () => {
         console.log(`Server is running at port ${port}`);
