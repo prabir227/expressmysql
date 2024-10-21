@@ -1,0 +1,26 @@
+{
+  meta: {
+    req: {
+      url: '/students/2',
+      headers: {
+        'content-length': '63',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYWJpcmdob3NoMjI3QGdtYWlsLmNvbSIsImlkIjo1LCJpYXQiOjE3MjkwNjIwMTR9.xkHWmJBJwlDB1inz67nNa7hupFpHkwcgJbTipPz7ogY',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/students/2',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /students/2',
+  timestamp: '2024-10-21T17:37:54.371Z'
+}

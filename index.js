@@ -5,6 +5,8 @@ const app = express();
 const dotenv = require('dotenv');
 const helmet = require('helmet');
 const errorMiddleware = require('./connections/middlewares/errors');
+const winston = require('winston');
+const expressWinston = require('express-winston');
 const port = process.env.PORT || 3000;
 
 //middlewares
@@ -12,6 +14,17 @@ app.use(express.json());
 app.use(helmet());
 
 dotenv.config();
+app.use(expressWinston.logger({
+    transports: [
+        new winston.transports.Console(),
+        new winston.transports.File({ filename: 'combined.log' })
+    ],
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json(),
+        winston.format.prettyPrint()
+    )
+}));
 //routes
 app.use('/students', require('./connections/routes/studentRoutes'));
 app.use('/notes', require('./connections/routes/noteRoutes'));
