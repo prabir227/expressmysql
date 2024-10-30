@@ -6,7 +6,7 @@ const auth = (req, res, next) => {
         const token = req.headers.authorization.split(" ")[1];
         if(token){
             let user = jwt.verify(token, SECRETKEY);
-            req.userId = user.id ;
+            req.userId = user.customerId ;
             
         }
         else{

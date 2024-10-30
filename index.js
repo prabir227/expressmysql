@@ -28,6 +28,7 @@ app.use(expressWinston.logger({
 //routes
 app.use('/students', require('./connections/routes/studentRoutes'));
 app.use('/notes', require('./connections/routes/noteRoutes'));
+app.use('/banking', require('./connections/routes/banking/bankingRoutes'));
 app.get("/test", (req, res) => {
     res.send("hello world");
 });

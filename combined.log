@@ -24,3 +24,1338 @@
   message: 'HTTP GET /students/2',
   timestamp: '2024-10-21T17:37:54.371Z'
 }
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '126',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:28:22.261Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '126',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:29:27.048Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:30:21.507Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:32:44.227Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:33:17.729Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:33:19.277Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 15
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:33:54.887Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 16
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:35:11.068Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 13
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:35:33.480Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:37:38.448Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:38:26.324Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:39:06.012Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:39:52.918Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 13
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:45:04.470Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '118',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T19:49:12.654Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:02:35.957Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:08:05.759Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:12:00.355Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:12:18.333Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:12:40.342Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:17:00.250Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:19:06.950Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:19:45.533Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:20:12.476Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:20:39.360Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:21:06.136Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:42:30.831Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:43:03.134Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:43:43.247Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/login',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiaWF0IjoxNzMwMzE4ODg1fQ.QFwsfUUGkN6A0NcbEty9VHqNK3GX_sG-1xWM8dKXxIE',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/login',
+  timestamp: '2024-10-30T20:44:49.157Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 14
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:45:41.928Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:47:02.413Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:48:32.883Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 22
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:50:26.754Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:50:59.972Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T20:52:06.319Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/withdraw',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/withdraw',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/withdraw',
+  timestamp: '2024-10-30T20:53:17.308Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/withdraw',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/withdraw',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/withdraw',
+  timestamp: '2024-10-30T20:53:45.542Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/withdraw',
+      headers: {
+        'content-length': '22',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/withdraw',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 17
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/withdraw',
+  timestamp: '2024-10-30T21:04:43.676Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '62',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 15
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:20:25.780Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/create',
+      headers: {
+        'content-length': '126',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/create',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/create',
+  timestamp: '2024-10-30T21:21:52.277Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:22:37.743Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 21
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:24:45.630Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 26
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:26:11.768Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:26:39.782Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP POST /banking/deposit',
+  timestamp: '2024-10-30T21:27:03.714Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 13
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T21:27:15.347Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T21:27:17.101Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T21:27:17.605Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T21:27:17.910Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/deposit',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/deposit',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/deposit',
+  timestamp: '2024-10-30T21:27:18.235Z'
+}
+{
+  meta: {
+    req: {
+      url: '/banking/transfer',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hbnVyYWoyMjdAZ21haWwuY29tIiwiY3VzdG9tZXJJZCI6MTQsImlhdCI6MTczMDMyMTA4OX0.CqGxNa_FjZXLqX3P6likH2JHBzfc1LHSvgsXeqoVGtc',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PATCH',
+      httpVersion: '1.1',
+      originalUrl: '/banking/transfer',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 21
+  },
+  level: 'info',
+  message: 'HTTP PATCH /banking/transfer',
+  timestamp: '2024-10-30T21:28:35.426Z'
+}
